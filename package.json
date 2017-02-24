@@ -3,7 +3,7 @@
   "scripts": {
     "build": "stripes build stripes.config.js",
     "stripes": "stripes",
-    "jason": "stripes dev stripes.config.js",
+    "start": "stripes dev stripes.config.js",
     "mike": "f=stripes.config.js; test -f $f || f=$f.example; echo Using config $f; stripes dev $f"
   },
   "dependencies": {
