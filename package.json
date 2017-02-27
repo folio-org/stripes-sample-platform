@@ -4,7 +4,7 @@
     "build": "stripes build stripes.config.js",
     "stripes": "stripes",
     "start": "stripes dev stripes.config.js",
-    "mike": "f=stripes.config.js; test -f $f || f=$f.example; echo Using config $f; stripes dev $f"
+    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes dev $f"
   },
   "dependencies": {
     "@folio/stripes-core": "^0.0.9-test",
