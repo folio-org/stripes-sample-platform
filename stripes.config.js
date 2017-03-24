@@ -3,7 +3,7 @@ module.exports = {
   config: {
     reduxLog: true,
     disableAuth: true
-    // candidate logCategories: 'core,redux,path,mpath,action,perm,xhr'
+    // candidate logCategories: 'core,connect,redux,path,mpath,action,perm,xhr'
   },
   modules: {
     '@folio/trivial': {},
