@@ -3,6 +3,9 @@ module.exports = {
   config: {
     disableAuth: true
     // candidate logCategories: 'core,connect,redux,path,mpath,action,perm,xhr'
+    // logPrefix
+    // logTimestamp
+    // showPerms
   },
   modules: {
     '@folio/trivial': {},
