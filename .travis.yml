@@ -1,0 +1,17 @@
+language: node_js 
+dist: trusty
+
+node_js:
+  - "7"
+
+before_script:
+  #- "export DISPLAY=:99"
+  #- "sh -e /etc/init.d/xvfb start"
+  #- sleep 1 # give xvfb some time to start
+
+script:
+ - yarn install
+ - yarn start &
+ - curl -sSf http://localhost:3000
+ - curl -sSf http://localhost:3000/bundle.js
+
