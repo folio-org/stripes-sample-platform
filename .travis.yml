@@ -13,6 +13,8 @@ script:
   - yarn install
   - ls -l 'node_modules/@folio/'
   - yarn start &
+  - sleep 3
+  - netstat -na
   - curl -sSf http://localhost:3000
   - curl -sSf http://localhost:3000/bundle.js
 
