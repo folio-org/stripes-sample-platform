@@ -1,7 +1,7 @@
 module.exports = {
   okapi: { 
 	// 'url':'http://localhost:9130', 
-	'url':'http://folio-c10.aws.indexdata.com:9130', 
+	'url':'http://folio-ci10.aws.indexdata.com:9130', 
 	'tenant':'diku' 
   },
   config: {
