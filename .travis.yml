@@ -4,17 +4,11 @@ dist: trusty
 node_js:
   - "7"
 
-before_script:
-  #- "export DISPLAY=:99"
-  #- "sh -e /etc/init.d/xvfb start"
-  #- sleep 1 # give xvfb some time to start
-
 script:
   - yarn install
-  - ls -l 'node_modules/@folio/'
   - yarn start &
-  - sleep 3
-  - netstat -na
+  - sleep 1
   - curl -sSf http://localhost:3000
-  - curl -sSf http://localhost:3000/bundle.js
+  - curl -sSf http://localhost:3000/bundle.js > /dev/null
+  - curl -sSf http://localhost:3000/bundle.js | wc -c
 
