@@ -6,3 +6,17 @@ Please see the [quick start guide](https://github.com/folio-org/stripes-core/blo
 
 The `stripes.config.js` is a configuration for a specific tenant. In general, a platform supports multiple tenants, each of which may include a different set of the available modules.
 Copy the `stripes.config.js` file to be your `stripes.config.js.local` configuration file.
+
+### install node packages first
+
+    $ yarn install
+
+### run the sample
+
+    $ yarn start
+
+or
+
+    # make the service available to other users
+    $ STRIPES_HOST=full.host.name yarn start
+
