@@ -10,8 +10,9 @@ before_script:
   #- sleep 1 # give xvfb some time to start
 
 script:
- - yarn install
- - yarn start &
- - curl -sSf http://localhost:3000
- - curl -sSf http://localhost:3000/bundle.js
+  - yarn install
+  - ls -l 'node_modules/@folio/'
+  - yarn start &
+  - curl -sSf http://localhost:3000
+  - curl -sSf http://localhost:3000/bundle.js
 
