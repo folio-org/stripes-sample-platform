@@ -7,7 +7,7 @@ node_js:
 script:
   - yarn install
   - yarn start &
-  - sleep 3
+  - sleep 3 # wait for the webserver to start
   - curl -sSf http://localhost:3000
   - curl -sSf http://localhost:3000/bundle.js > /dev/null
   - curl -sSf http://localhost:3000/bundle.js | wc -c
