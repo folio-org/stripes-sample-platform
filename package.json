@@ -7,10 +7,10 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes dev $f"
   },
   "dependencies": {
-    "@folio/items": "^1.1.0",
-    "@folio/scan": "^0.2.0",
     "@folio/stripes-core": "^0.5.0",
     "@folio/trivial": "^0.0.2-test",
-    "@folio/users": "^1.1.0"
+    "@folio/users": "^1.1.0",
+    "@folio/items": "^1.1.0",
+    "@folio/scan": "^0.2.0"
   }
 }
