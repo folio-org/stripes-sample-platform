@@ -5,6 +5,7 @@ module.exports = {
     // logPrefix
     // logTimestamp
     // showPerms
+    // hasAllPerms
   },
   modules: {
     '@folio/trivial': {},
