@@ -6,6 +6,7 @@ module.exports = {
     // logTimestamp
     // showPerms
     // hasAllPerms
+    // softLogout (boolean)
   },
   modules: {
     '@folio/trivial': {},
