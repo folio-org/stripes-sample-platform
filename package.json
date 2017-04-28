@@ -11,6 +11,6 @@
     "@folio/trivial": "^0.0.2-test",
     "@folio/users": "^1.1.0",
     "@folio/items": "^1.1.0",
-    "@folio/scan": "^0.2.0"
+    "@folio/scan": "^0.3.0"
   }
 }
