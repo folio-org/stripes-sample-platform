@@ -6,6 +6,7 @@ module.exports = {
     // logPrefix: 'stripes'
     // logTimestamp: false
     // showPerms: false
+    // listInvisiblePerms: false
     // disableAuth: false
     // hasAllPerms: false
     // softLogout: false
