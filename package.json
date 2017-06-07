@@ -13,7 +13,6 @@
     "@folio/users": "^2.3.0",
     "@folio/items": "^1.4.0",
     "@folio/scan": "^0.4.0",
-    "@folio/okapi-console": "^0.0.1-test",
     "@folio/organization": "^0.4.0",
     "@folio/developer": "^0.1.0",
     "@folio/plugin-markdown-editor": "^0.2.0",
