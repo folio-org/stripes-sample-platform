@@ -18,6 +18,7 @@
     "@folio/organization": "^1.1.0",
     "@folio/developer": "^1.2.0",
     "@folio/plugin-markdown-editor": "^0.2.0",
-    "@folio/plugin-markdown-better": "^0.2.0"
+    "@folio/plugin-markdown-better": "^0.2.0",
+    "@folio/plugin-find-user": "^1.0.0"
   }
 }
