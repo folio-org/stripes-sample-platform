@@ -13,7 +13,7 @@
     "@folio/stripes-logger": "^0.0.2",
     "@folio/trivial": "^0.0.2-test",
     "@folio/users": "^2.7.0",
-    "@folio/items": "^1.6.0",
+    "@folio/items": "^1.7.0",
     "@folio/scan": "^1.0.0",
     "@folio/organization": "^2.0.0",
     "@folio/developer": "^1.2.0",
