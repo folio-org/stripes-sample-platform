@@ -15,6 +15,7 @@
     "@folio/users": "^2.7.0",
     "@folio/items": "^1.7.0",
     "@folio/scan": "^1.0.0",
+    "@folio/requests": "^0.0.1",
     "@folio/organization": "^2.0.0",
     "@folio/developer": "^1.2.0",
     "@folio/plugin-markdown-editor": "^0.2.0",
