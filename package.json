@@ -14,7 +14,7 @@
     "@folio/trivial": "^1.0.0",
     "@folio/users": "^2.7.0",
     "@folio/items": "^1.7.0",
-    "@folio/scan": "^1.1.0",
+    "@folio/circulation": "^1.0.0",
     "@folio/checkout": "^0.0.1",
     "@folio/checkin": "^0.0.1",
     "@folio/requests": "^0.0.1",
