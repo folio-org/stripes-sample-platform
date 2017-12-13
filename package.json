@@ -3,8 +3,8 @@
   "scripts": {
     "build": "stripes build stripes.config.js",
     "stripes": "stripes",
-    "start": "stripes dev stripes.config.js",
-    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; stripes dev $f"
+    "start": "NODE_ENV=development stripes dev stripes.config.js",
+    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; NODE_ENV=development stripes dev $f"
   },
   "dependencies": {
     "@folio/stripes-core": "^2.8.0",
