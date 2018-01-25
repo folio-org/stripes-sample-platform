@@ -4,7 +4,7 @@
     "build": "stripes build stripes.config.js",
     "stripes": "stripes",
     "start": "NODE_ENV=development stripes dev stripes.config.js",
-    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; NODE_ENV=development stripes dev $f"
+    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; NODE_ENV=development node --max_old_space_size=4096 node_modules/.bin/stripes dev $f"
   },
   "dependencies": {
     "@folio/stripes-core": "^2.8.0",
