@@ -4,6 +4,7 @@
     "build": "stripes build stripes.config.js",
     "stripes": "stripes",
     "start": "NODE_ENV=development stripes dev stripes.config.js",
+    "dev": "NODE_ENV=development stripes dev",
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; NODE_ENV=development node --max_old_space_size=4096 node_modules/.bin/stripes dev $f"
   },
   "dependencies": {
