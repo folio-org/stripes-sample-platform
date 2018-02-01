@@ -1,0 +1,23 @@
+{
+  "configFile": "stripes.config.js.local",
+  "port": 8080,
+  "aliases": {
+    "@folio/stripes-form": "../stripes-form",
+    "@folio/stripes-connect": "../stripes-connect",
+    "@folio/stripes-components": "../stripes-components",
+    "@folio/stripes-smart-components": "../stripes-smart-components",
+    "@folio/stripes-core": "../stripes-core",
+    "@folio/users": "../ui-users",
+    "@folio/plugin-find-user": "../ui-plugin-find-user",
+    "@folio/developer": "../ui-developer",
+    "@folio/inventory": "../ui-inventory",
+    "@folio/eholdings": "../ui-eholdings",
+    "@folio/items": "../ui-items",
+    "@folio/checkin": "../ui-checkin",
+    "@folio/checkout": "../ui-checkout",
+    "@folio/circulation": "../ui-circulation",
+    "@folio/requests": "../ui-requests",
+    "@folio/search": "../ui-search",
+    "@folio/organization": "../ui-organization"
+  }
+}
