@@ -18,6 +18,7 @@
     "@folio/circulation": "../ui-circulation",
     "@folio/requests": "../ui-requests",
     "@folio/search": "../ui-search",
-    "@folio/organization": "../ui-organization"
+    "@folio/organization": "../ui-organization",
+    "@folio/trivial": "../ui-trivial"
   }
 }
