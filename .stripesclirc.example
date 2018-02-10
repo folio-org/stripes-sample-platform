@@ -12,7 +12,6 @@
     "@folio/developer": "../ui-developer",
     "@folio/inventory": "../ui-inventory",
     "@folio/eholdings": "../ui-eholdings",
-    "@folio/items": "../ui-items",
     "@folio/checkin": "../ui-checkin",
     "@folio/checkout": "../ui-checkout",
     "@folio/circulation": "../ui-circulation",
