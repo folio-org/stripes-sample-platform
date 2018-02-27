@@ -1,4 +1,6 @@
 {
+  "name": "@folio/stripes-sample-platform",
+  "version": "0.1.0",
   "license": "Apache-2.0",
   "scripts": {
     "build": "stripescore build stripes.config.js",
@@ -22,7 +24,7 @@
     "@folio/search": "^1.1.0",
     "@folio/stripes-components": "^2.0.0",
     "@folio/stripes-connect": "^3.0.0",
-    "@folio/stripes-core": "^2.8.0",
+    "@folio/stripes-core": "^2.9.0",
     "@folio/stripes-logger": "^0.0.2",
     "@folio/trivial": "^1.2.0",
     "@folio/users": "^2.12.0"
