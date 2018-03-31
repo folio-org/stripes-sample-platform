@@ -3,3 +3,4 @@ stripes.config.js.local
 yarn.lock
 webpackcache/
 .stripesclirc
+yarn-error.log
