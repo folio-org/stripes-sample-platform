@@ -4,3 +4,4 @@ yarn.lock
 webpackcache/
 .stripesclirc
 yarn-error.log
+.awcache
