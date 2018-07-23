@@ -25,6 +25,7 @@
     "@folio/stripes-core": "^2.9.0",
     "@folio/stripes-logger": "^0.0.2",
     "@folio/trivial": "^1.2.0",
-    "@folio/users": "^2.12.0"
+    "@folio/users": "^2.12.0",
+    "@folio/tags": "^1.0.0"
   }
 }

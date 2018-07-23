@@ -9,7 +9,6 @@
     "@folio/stripes-core": "../stripes-core",
     "@folio/users": "../ui-users",
     "@folio/plugin-find-user": "../ui-plugin-find-user",
-    "@folio/developer": "../ui-developer",
     "@folio/inventory": "../ui-inventory",
     "@folio/eholdings": "../ui-eholdings",
     "@folio/checkin": "../ui-checkin",
@@ -18,6 +17,7 @@
     "@folio/requests": "../ui-requests",
     "@folio/search": "../ui-search",
     "@folio/organization": "../ui-organization",
-    "@folio/trivial": "../ui-trivial"
+    "@folio/trivial": "../ui-trivial",
+    "@folio/tags": "../ui-tags"
   }
 }
