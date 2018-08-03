@@ -10,7 +10,6 @@ module.exports = {
     // listInvisiblePerms: false
     // disableAuth: false
     // hasAllPerms: false
-    // softLogout: false
   },
   modules: {
     '@folio/trivial': {},
