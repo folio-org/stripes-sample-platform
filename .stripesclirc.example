@@ -19,6 +19,7 @@
     "@folio/organization": "../ui-organization",
     "@folio/trivial": "../ui-trivial",
     "@folio/tags": "../ui-tags",
-    "@folio/myprofile": "../ui-myprofile"
+    "@folio/myprofile": "../ui-myprofile",
+    "@folio/servicepoints": "../ui-servicepoints"
   }
 }
