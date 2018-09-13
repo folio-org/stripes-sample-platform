@@ -10,6 +10,7 @@
     "@folio/users": "../ui-users",
     "@folio/plugin-find-user": "../ui-plugin-find-user",
     "@folio/inventory": "../ui-inventory",
+    "@folio/erm": "../ui-erm",
     "@folio/eholdings": "../ui-eholdings",
     "@folio/checkin": "../ui-checkin",
     "@folio/checkout": "../ui-checkout",
