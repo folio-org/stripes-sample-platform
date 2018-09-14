@@ -12,6 +12,7 @@
   "dependencies": {
     "@folio/inventory": "^1.0.0",
     "@folio/eholdings": "^0.1.0",
+    "@folio/erm": "^0.1.0",
     "@folio/circulation": "^1.1.1",
     "@folio/checkin": "^1.1.1",
     "@folio/checkout": "^1.1.2",
