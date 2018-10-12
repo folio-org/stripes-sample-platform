@@ -3,31 +3,19 @@
   "version": "0.1.0",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "stripescore build stripes.config.js",
-    "stripes": "stripescore",
-    "start": "NODE_ENV=development stripescore dev stripes.config.js",
-    "dev": "NODE_ENV=development stripescore dev",
-    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; NODE_ENV=development node --max_old_space_size=4096 node_modules/.bin/stripescore dev $f"
+    "build": "stripes build stripes.config.js",
+    "stripes": "stripes",
+    "start": "NODE_ENV=development stripes serve stripes.config.js",
+    "dev": "NODE_ENV=development stripes serve",
+    "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; NODE_ENV=development node --max_old_space_size=4096 node_modules/.bin/stripes serve $f"
   },
   "dependencies": {
-    "@folio/inventory": "^1.0.0",
-    "@folio/eholdings": "^0.1.0",
-    "@folio/erm": "^0.1.0",
-    "@folio/circulation": "^1.1.1",
-    "@folio/checkin": "^1.1.1",
-    "@folio/checkout": "^1.1.2",
-    "@folio/developer": "^1.3.0",
-    "@folio/organization": "^2.2.0",
-    "@folio/plugin-find-user": "^1.1.0",
-    "@folio/requests": "^1.0.0",
-    "@folio/search": "^1.1.0",
-    "@folio/stripes-components": "^3.0.0",
-    "@folio/stripes-connect": "^3.0.0",
-    "@folio/stripes-core": "^2.9.0",
-    "@folio/stripes-logger": "^0.0.2",
+    "@folio/stripes": "^1.0.0",
     "@folio/trivial": "^1.2.0",
-    "@folio/users": "^2.12.0",
-    "@folio/tags": "^1.0.0",
-    "@folio/myprofile": "^0.2.0"
+    "@folio/users": "^2.17.0",
+    "react": "^16.3.0"
+  },
+  "devDependencies": {
+    "@folio/stripes-cli": "^1.5.0"
   }
 }
