@@ -12,7 +12,6 @@ module.exports = {
     // hasAllPerms: false
   },
   modules: {
-    '@folio/trivial': {},
     '@folio/users': {}
   },
   branding: {
