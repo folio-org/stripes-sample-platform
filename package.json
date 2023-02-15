@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-sample-platform",
-  "version": "0.2.0",
+  "version": "2023-R1 (Orchid)",
   "license": "Apache-2.0",
   "scripts": {
     "build": "stripes build stripes.config.js",
@@ -10,25 +10,33 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; NODE_ENV=development node --max_old_space_size=4096 node_modules/.bin/stripes serve $f"
   },
   "dependencies": {
-    "@folio/stripes": "^7.0.0",
-    "@folio/users": "^6.2.0",
+    "@folio/stripes": "^8.0.0",
+    "@folio/users": "^9.0.0",
+    "final-form": "^4.20.7",
+    "final-form-arrays": "^3.0.2",
     "moment": "~2.29.0",
     "react": "~17.0.2",
     "react-dom": "~17.0.2",
-    "react-intl": "^5.7.0",
+    "react-final-form": "^6.5.9",
+    "react-final-form-arrays": "^3.1.3",
+    "react-intl": "^5.25.1",
     "react-query": "^3.13.0",
-    "react-redux": "^7.2.2",
+    "react-redux": "^8.0.5",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-titled": "^1.0.1",
     "redux": "^4.0.5",
     "redux-observable": "^1.2.0",
-    "rxjs": "^6.6.3"
-  },
+    "rxjs": "^6.6.7",
+    "zustand": "^4.1.1"
+    },
   "devDependencies": {
-    "@folio/stripes-cli": "^2.4.0"
+    "@folio/stripes-cli": "^2.7.0"
   },
   "resolutions": {
+    "@rehooks/local-storage": "~2.4.4",
+    "colors": "1.4.0",
+    "final-form": "^4.20.4",
     "minimist": "^1.2.3",
     "moment": "~2.29.0",
     "redux-form": "^8.0.0"

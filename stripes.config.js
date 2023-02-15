@@ -10,6 +10,9 @@ module.exports = {
     // listInvisiblePerms: false
     // disableAuth: false
     // hasAllPerms: false
+    // maxUnpagedResourceCount: 2000
+    // suppressIntlErrors: true
+    // suppressIntlWarnings: true
   },
   modules: {
     '@folio/users': {}
