@@ -46,7 +46,7 @@ module.exports = {
   // UI modules to include
   // the same modules must be direct-dependencies in package.json
   modules: {
-    '@folio/users': {},
+    '@folio/users': {}
   },
   branding: {
     // login page img and alt-text
