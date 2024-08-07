@@ -1,7 +1,9 @@
 module.exports = {
   okapi: {
     // API gateway
-    'url': 'http://localhost:9130',
+    // 'url': 'http://localhost:9130'
+    // pointing to public deployment of okapi.
+    'url': 'https://folio-snapshot-okapi.dev.folio.org',
 
     // tenant to include in X-Okapi-Tenant HTTP request headers
     'tenant': 'diku'
@@ -21,7 +23,7 @@ module.exports = {
 
     // act as though user has all perms, i.e. <IfPermission> always returns true
     // default: FALSE
-    // hasAllPerms: false,
+    hasAllPerms: true,
 
     // autoLogin: { username: 'someusername', password: 'somepassword' },
     // disableAuth: false,
@@ -39,12 +41,12 @@ module.exports = {
     // use RTR instead of insecure legacy endpoints
     // since Q, default: FALSE
     // since R, default: TRUE, cannot be overridden
-    // useSecureTokens: true,
+    useSecureTokens: true,
   },
   // UI modules to include
   // the same modules must be direct-dependencies in package.json
   modules: {
-    '@folio/users': {}
+    '@folio/users': {},
   },
   branding: {
     // login page img and alt-text
@@ -55,18 +57,6 @@ module.exports = {
     // browser tab icon
     favicon: {
       src: './tenant-assets/opentown-libraries-favicon.png',
-    },
-    style: {
-      mainNav: {
-        // background color of the main navigation bar
-        // default: #000c
-        backgroundColor: "#036",
-      },
-      login: {
-        // background color of the login screen
-        // default: #fff
-        backgroundColor: "#fcb",
-      },
-    },
+    }
   },
 };
