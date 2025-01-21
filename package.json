@@ -10,8 +10,8 @@
     "local": "f=stripes.config.js; test -f $f.local && f=$f.local; echo Using config $f; NODE_ENV=development node --max_old_space_size=4096 node_modules/.bin/stripes serve $f"
   },
   "dependencies": {
-    "@folio/stripes": "^9.1.2",
-    "@folio/users": "^10.1.0",
+    "@folio/stripes": "^9.2.0",
+    "@folio/users": "^11.0.0",
     "final-form": "^4.20.7",
     "final-form-arrays": "^3.0.2",
     "moment": "~2.29.0",

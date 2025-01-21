@@ -23,7 +23,7 @@ module.exports = {
 
     // act as though user has all perms, i.e. <IfPermission> always returns true
     // default: FALSE
-    hasAllPerms: true,
+    // hasAllPerms: true,
 
     // autoLogin: { username: 'someusername', password: 'somepassword' },
     // disableAuth: false,
@@ -40,7 +40,7 @@ module.exports = {
 
     // use RTR instead of insecure legacy endpoints
     // since Q, default: FALSE
-    // since R, default: TRUE, cannot be overridden
+    // since S, default: TRUE, cannot be overridden
     useSecureTokens: true,
   },
   // UI modules to include

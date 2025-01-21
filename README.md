@@ -8,13 +8,13 @@ The `stripes.config.js` is a configuration for a specific tenant. In general, a 
 
 ## Running the sample platform locally
 
-* Install NodeJS >= 18
+* Install NodeJS >= 20
 * Run `yarn`
 * Run `yarn stripes serve stripes.config.js`
 
 ## Deploying the sample platform
 
-* Install NodeJS >=
+* Install NodeJS >= 20
 * Run `yarn`
 * Run `yarn stripes build stripes.config.js`
 * This will generate a bundle in `./output`; copy these assets to your HTTP server
