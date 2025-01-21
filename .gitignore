@@ -5,3 +5,4 @@ webpackcache/
 .stripesclirc
 yarn-error.log
 .awcache
+.yarn/install-state.gz
